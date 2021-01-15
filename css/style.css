@@ -26,9 +26,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  min-height: 100vh;
 }
 
 .grid {
+  position: relative;
+  top: 50%;
   max-width: 111rem;
   min-height: 57.6rem;
   display: -ms-grid;
